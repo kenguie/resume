@@ -1,0 +1,55 @@
+* {
+    background-color:#ccff99;
+}
+
+#header {
+    /* position:fixed;  --- dislike */ 
+    text-align: center;
+    z-index:1;
+    height:20;
+    width:50;
+    /*background-color:blue;*/
+    border:2px solid black;
+    border-radius:5px;
+}
+
+#work {
+    text-align: center;
+    border:2px solid black;
+    border-radius:5px;
+}
+
+#ed {
+    text-align: center;
+    border:2px solid black;
+    border-radius:5px;
+}
+
+#interests {
+    text-align: center;
+    border:2px solid black;
+    border-radius:5px;
+}
+
+h1 {
+    font-size: 3 em;
+    color: green;
+}
+
+li {
+    color:blue;
+    font-size: 1.25em;
+}
+
+a:link {
+    text-decoration:underline;
+}
+
+a:hover {
+    color:orange;
+    font-size: 2.0em;
+}
+
+.employ {
+    color:red;
+}
