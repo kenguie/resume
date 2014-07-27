@@ -440,8 +440,15 @@ th {
 
 /* ------------------------------------------------------------ */
 * {
-    background-color:#ccff99;
+    /* background-color:#ccff99; */
     font-family: Times New Roman, Helvetica, Times;
+}
+
+body {
+    background: -webkit-linear-gradient(#D1D1FF, white) no-repeat; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D1D1FF, white) no-repeat; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D1D1FF, white) no-repeat; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D1D1FF, white) no-repeat; /* Standard syntax */
 }
 
 .header h1 {
